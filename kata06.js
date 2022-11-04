@@ -3,7 +3,7 @@ const whereCanIPark = function (spots, vehicle) {
   for (let i = 0; i < spots.length; i++) {
     for (let j = 0; j < spots[i].length; j++) {
       const parkingSpot = spots[i][j]; // for readibility
-      
+
       if (vehicle === 'regular' && parkingSpot === 'R') {
         return[j,i]; // return XY coords
       } else if (vehicle === 'small' && (parkingSpot === 'R' || parkingSpot === 'S')) {
@@ -51,3 +51,5 @@ console.log(whereCanIPark(
   ],
   'motorcycle'
 ))
+
+// submitted via https://gist.github.com/willsmores/ed202d678a308f9fbb3b607e68417d79
