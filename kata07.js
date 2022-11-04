@@ -37,3 +37,5 @@ console.log(checkAir(
   ['clean', 'dirty', 'clean', 'dirty', 'clean', 'dirty', 'clean'],
   0.9
 ))
+
+// submitted via https://gist.github.com/willsmores/5d799811dccd8e4afe8827ba53bad5aa
